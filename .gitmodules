@@ -1,0 +1,3 @@
+[submodule "LongdoWordSuggestAPI"]
+	path = LongdoWordSuggestAPI
+	url = https://github.com/Reizinixc/LongdoWordSuggestAPI.git

@@ -1,0 +1,15 @@
+<resources>
+
+   <!-- Base application theme. -->
+   <style name="AppTheme" parent="AppTheme.Base">
+      <!-- Customize your theme here. -->
+      <item name="android:fitsSystemWindows">true</item>
+      <item name="android:windowTranslucentStatus">true</item>
+      <item name="android:actionBarStyle">@style/AppTheme.TransparentActionBarStyle</item>
+   </style>
+
+   <style name="AppTheme.TransparentActionBarStyle" parent="@android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+      <item name="android:background">@android:color/transparent</item>
+   </style>
+
+</resources>
