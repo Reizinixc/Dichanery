@@ -7,12 +7,21 @@
 
    <style name="AppTheme.Base" parent="android:Theme.Holo.Light.DarkActionBar">
       <item name="android:actionBarStyle">@style/AppTheme.Base.ActionBarStyle</item>
+      <item name="ptrHeaderStyle">@style/AppTheme.Base.PtrHeader</item>
    </style>
 
    <color name="main">#ffec672b</color>
+   <color name="sub">#dd646464</color>
 
    <style name="AppTheme.Base.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
       <item name="android:background">@color/main</item>
+   </style>
+
+
+   <!-- PullToRefresh style -->
+   <style name="AppTheme.Base.PtrHeader" parent="android:Widget">
+      <item name="ptrHeaderBackground">@color/main</item>
+      <item name="ptrProgressBarColor">@color/sub</item>
    </style>
 
 </resources>
