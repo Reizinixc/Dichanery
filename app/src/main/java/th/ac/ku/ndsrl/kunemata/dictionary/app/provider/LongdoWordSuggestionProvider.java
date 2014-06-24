@@ -7,8 +7,8 @@ import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.net.Uri;
 import android.provider.BaseColumns;
-import th.ac.ku.ndsrl.kunemata.api.wordsuggest.longdo.LongdoWordSuggester;
-import th.ac.ku.ndsrl.kunemata.api.wordsuggest.longdo.WordSuggester;
+import com.github.Reizinixc.wordsuggester.LongdoWordSuggester;
+import com.github.Reizinixc.wordsuggester.WordSuggester;
 
 import java.util.Arrays;
 import java.util.HashMap;
